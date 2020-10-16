@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\Bullseye\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Bullseye\\.nuget\\packages"
-    ]
-  }
-}
