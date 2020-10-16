@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FysicsLeague", "FysicsLeague.csproj", "{8F949C70-D3F0-4850-BAF5-EEF958BAA71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F949C70-D3F0-4850-BAF5-EEF958BAA71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F949C70-D3F0-4850-BAF5-EEF958BAA71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F949C70-D3F0-4850-BAF5-EEF958BAA71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F949C70-D3F0-4850-BAF5-EEF958BAA71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9112323-5B18-4A4B-B145-7EA57260D5FC}
+	EndGlobalSection
+EndGlobal
