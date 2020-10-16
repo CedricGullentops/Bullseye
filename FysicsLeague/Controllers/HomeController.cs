@@ -23,6 +23,11 @@ namespace FysicsLeague.Controllers
             return View();
         }
 
+        public IActionResult PuzzleRush()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
