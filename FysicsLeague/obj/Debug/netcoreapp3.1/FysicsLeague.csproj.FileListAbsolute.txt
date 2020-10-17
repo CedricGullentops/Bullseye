@@ -187,7 +187,6 @@ E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\FysicsLeague.d
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\FysicsLeague.pdb
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\FysicsLeague.genruntimeconfig.cache
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Kijken.cshtml.g.cs
-E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Leren.cshtml.g.cs
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Oefenen.cshtml.g.cs
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Gemeenschap.cshtml.g.cs
 C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Gemeenschap.cshtml.g.cs
@@ -195,3 +194,5 @@ C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcor
 C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Oefenen.cshtml.g.cs
 C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Coaching.cshtml.g.cs
 C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Studie.cshtml.g.cs
+E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Coaching.cshtml.g.cs
+E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Studie.cshtml.g.cs

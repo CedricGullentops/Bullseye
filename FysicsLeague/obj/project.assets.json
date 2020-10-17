@@ -5697,19 +5697,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stijn\\.nuget\\packages\\": {}
+    "C:\\Users\\Bullseye\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Bullseye\\FysicsLeague\\FysicsLeague.csproj",
+      "projectUniqueName": "E:\\Bullseye Project\\Bullseye\\FysicsLeague\\FysicsLeague.csproj",
       "projectName": "FysicsLeague",
-      "projectPath": "C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Bullseye\\FysicsLeague\\FysicsLeague.csproj",
-      "packagesPath": "C:\\Users\\stijn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Bullseye\\FysicsLeague\\obj\\",
+      "projectPath": "E:\\Bullseye Project\\Bullseye\\FysicsLeague\\FysicsLeague.csproj",
+      "packagesPath": "C:\\Users\\Bullseye\\.nuget\\packages\\",
+      "outputPath": "E:\\Bullseye Project\\Bullseye\\FysicsLeague\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stijn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bullseye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
