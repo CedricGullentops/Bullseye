@@ -23,7 +23,22 @@ namespace FysicsLeague.Controllers
             return View();
         }
 
-        public IActionResult PuzzleRush()
+        public IActionResult Leren()
+        {
+            return View();
+        }
+
+        public IActionResult Oefenen()
+        {
+            return View();
+        }
+
+        public IActionResult Kijken()
+        {
+            return View();
+        }
+
+        public IActionResult Gemeenschap()
         {
             return View();
         }
