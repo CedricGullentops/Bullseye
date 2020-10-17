@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @RenderSection("Styles", false)
     <title>@ViewData["Title"] - FysicsLeague</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -21,29 +22,32 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Leren">Leren</a>
-                            <ul>
-                                <li><a class="drop" href="#">Studie</a></li>
-                                <li><a class="drop" href="#">Coaching</a></li>
-                            </ul>
+                            <a class="nav-link text-dark" >Leren</a>
+                            <div class="dropdown-content">
+                                <a asp-area="" asp-controller="Home" asp-action="Studie"> Studie</a>
+                                <a asp-area="" asp-controller="Home" asp-action="Coaching">Coaching</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Oefenen">Oefenen</a>
-                            <ul>
-                                <li><a class="drop" href="#">Dropdown</a></li>
-                            </ul>
+                            <div class="dropdown-content">
+                                <a href="#">Studie</a>
+                                <a href="#">Coaching</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Kijken">Kijken</a>
-                            <ul>
-                                <li><a class="drop" href="#">Dropdown</a></li>
-                            </ul>
+                            <div class="dropdown-content">
+                                <a href="#">Studie</a>
+                                <a href="#">Coaching</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gemeenschap">Gemeenschap</a>
-                            <ul>
-                                <li><a class="drop" href="#">Dropdown</a></li>
-                            </ul>
+                            <div class="dropdown-content">
+                                <a href="#">Studie</a>
+                                <a href="#">Coaching</a>
+                            </div>
                         </li>
                     </ul>
                 </div>

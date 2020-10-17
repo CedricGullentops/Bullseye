@@ -22,8 +22,13 @@ namespace FysicsLeague.Controllers
         {
             return View();
         }
+      
+        public IActionResult Studie()
+        {
+            return View();
+        }
 
-        public IActionResult Leren()
+        public IActionResult Coaching()
         {
             return View();
         }

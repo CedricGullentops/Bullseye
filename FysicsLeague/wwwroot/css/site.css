@@ -94,19 +94,33 @@ body {
     border-left: 3px solid #0099ff;
 }
 
-.navbar-nav li:hover > ul {
-    display: block;
-}
-
-.navbar-nav li ul {
+/* Dropdown content (hidden by default) */
+.dropdown-content {
     display: none;
-    margin: 0;
-    padding: 5px 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.navbar-nav li ul:hover > nav-item {
-    background-color: #0099ff;
-    color: white;
-    margin: 0;
-    padding: 0;
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-left: 3px solid #0099ff;
+}
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .dropdown-content {
+    display: block;
 }
