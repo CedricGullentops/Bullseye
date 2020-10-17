@@ -7,11 +7,6 @@ a.navbar-brand {
     word-break: break-all;
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
-}
-
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -61,7 +56,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-color: #edeef0 !important;
+    background-color: #e6f5ff !important;
 }
 .footer {
     position: absolute;
@@ -107,7 +102,7 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
-    color: black;
+    color: black !important;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -123,14 +118,26 @@ body {
 /* Show the dropdown menu on hover */
 .nav-item:hover .dropdown-content {
     display: block;
+    text-decoration: none;
+}
+
+.body {
+    text-decoration: none;
 }
 
 .schooljaar {
     text-align: center;
+    font-family: Roboto;
 }
 
 .subsection-titel {
-
+    color: #999999;
+    text-transform: uppercase;
+    text-shadow: 0 2px 0 #fff;
+    font-size: 2em;
+    letter-spacing: 8px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .link-box {
@@ -139,5 +146,65 @@ body {
     width: 100%;
     border-radius: 4px;
     color: white;
-    padding: 12px 16px;
+    padding: 12px 16px 12px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    margin: 10px 3px 40px 3px;
+    box-shadow: 3px 6px 1px #b2b5b8;
+}
+
+.derde {
+    background-color: #098210;
+}
+
+.vierde {
+    background-color: #e6780b;
+}
+
+.vijfde {
+    background-color: #0b92d6;
+}
+
+.zesde {
+    background-color: #780fd4;
+}
+
+.derde:hover {
+    background-color: #086e0e;
+}
+
+.vierde:hover {
+    background-color: #b5600b;
+}
+
+.vijfde:hover {
+    background-color: #0f71a3;
+}
+
+.zesde:hover {
+    background-color: #5b119c;
+}
+
+.link-box:hover {
+    padding: 13px 17px 13px 17px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
 }

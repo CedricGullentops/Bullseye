@@ -1,23 +1,79 @@
-﻿@{
-    ViewData["Title"] = "Studie";
-}
-<title>Studie</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<div class="schooljaar">
-    <div class="subsection-titel">
-        <h2>Vijfde middelbaar</h2>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @{
+        ViewData["Title"] = "Studie";
+    }
+    <title>Studie</title>
+</head>
+<body>
+    <div class="schooljaar">
+        <div class="subsection-titel">
+            <h2>DERDE MIDDELBAAR</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="link-box derde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> Omzettingen</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="link-box derde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection-titel">
+            <h2>VIERDE MIDDELBAAR</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="link-box vierde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="link-box vierde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection-titel">
+            <h2>VIJFDE MIDDELBAAR</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="link-box vijfde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="link-box vijfde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection-titel">
+            <h2>ZESDE MIDDELBAAR</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="link-box zesde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="link-box zesde">
+                    <a asp-area="" asp-controller="Home" asp-action="Studie"> De eenparige rechtlijnige beweging</a>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <a asp-area="" asp-controller="Home" asp-action="Coaching"> De eenparig rechtlijnige beweging</a>
-    <div class="row">
-        <div class="col">
-            <div class="link-box">
-                <a asp-area="" asp-controller="Home" asp-action="Coaching"> De eenparig rechtlijnige beweging</a>
-            </div>
-        </div>
-        <div class="col">
-            <div class="link-box">
-                <a asp-area="" asp-controller="Home" asp-action="Index"> Behoud energie</a>
-            </div>
-        </div>
-</div>
+</body>
+</html>
