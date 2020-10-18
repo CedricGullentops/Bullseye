@@ -140,6 +140,8 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* eigenschappen van de onderwerpenboxen*/
+
 .link-box {
     text-align: left;
     background-color: #0099ff;
@@ -150,7 +152,12 @@ body {
     text-decoration: none;
     font-size: 27px;
     margin: 10px 3px 40px 3px;
-    box-shadow: 3px 6px 1px #b2b5b8;
+    box-shadow: 3px 5px 1px #b2b5b8;
+}
+
+.link-box:hover {
+    padding: 13px 17px 13px 17px;
+    margin: 9px 2px 39px 2px;
 }
 
 .derde {
@@ -183,10 +190,6 @@ body {
 
 .zesde:hover {
     background-color: #5b119c;
-}
-
-.link-box:hover {
-    padding: 13px 17px 13px 17px;
 }
 
 a:link {

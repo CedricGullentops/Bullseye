@@ -196,3 +196,8 @@ C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcor
 C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Studie.cshtml.g.cs
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Coaching.cshtml.g.cs
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Studie.cshtml.g.cs
+C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Studie\Dewetvancoulomb.cshtml.g.cs
+C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Dewetvancoulomb\Formule.cshtml.g.cs
+C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Dewetvancoulomb\Grootheden.cshtml.g.cs
+C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Dewetvancoulomb\Krachtvectoren.cshtml.g.cs
+C:\Users\stijn\OneDrive\Documenten\GitHub\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Dewetvancoulomb\Theorie.cshtml.g.cs
