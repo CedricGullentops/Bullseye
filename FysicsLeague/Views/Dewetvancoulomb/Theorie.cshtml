@@ -7,8 +7,22 @@
         ViewData["Title"] = "Theorie";
     }
     <title>Theorie</title>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    @*https://upmath.me/*@
+    @*https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf*@
 </head>
+
 <body>
-    
+    <p style="text-align:center">De formule van de wet van coulomb:</p>
+    <h2>\begin{equation}|\overrightarrow{F}_{1→2}| = \frac{1}{4\pi\epsilon_{0}}\frac{Q_{2}}{r_{12}^{2}}.\end{equation}  
+    </h2>  
+    <p align="center">
+        <img align="center" src="https://i.upmath.me/svg/%5Cbegin%7Btikzpicture%7D%0A%5Cpath%20node%20at%20(%20-1%2C0)%20%5Bshape%3Dcircle%2Cdraw%5D%20%0A%7B%24Q_1%24%7D%0Anode%20at%20(%201%2C0)%20%5Bshape%3Dcircle%2Cdraw%5D%20%7B%24Q_2%24%20%5Cnodepart%7Blower%7D%7D%3B%0A%5Cdraw%20%5B%3C-%3E%5D%20(1%2C0)%20--%20(-1%2C0)%20node%5Bpos%3D0.5%5D%7Br%7D%0A%5Cend%7Btikzpicture%7D" alt="\begin{tikzpicture}
+        \path node at ( -1,0) [shape=circle,draw]
+        {$Q_1$}
+        node at ( 1,0) [shape=circle,draw] {$Q_2$ \nodepart{lower}};
+        \draw [&lt;-&gt;] (1,0) -- (-1,0) node[pos=0.5]{r}
+        \end{tikzpicture}" />
+    </p>
 </body>
 </html>
