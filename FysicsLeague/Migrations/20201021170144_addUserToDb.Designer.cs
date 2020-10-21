@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FysicsLeague.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201020202605_addUserToDb")]
+    [Migration("20201021170144_addUserToDb")]
     partial class addUserToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

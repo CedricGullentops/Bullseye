@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using FysicsLeague.Models;
+using FysicsLeague.Data;
 
 namespace FysicsLeague.Controllers
 {
     public class StudieController : Controller
     {
+        public StudieController()
+        {
+        }     
+
         public IActionResult Dewetvancoulomb()
         {
             return View();
