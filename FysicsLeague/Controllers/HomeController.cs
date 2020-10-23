@@ -34,7 +34,7 @@ namespace FysicsLeague.Controllers
             return View();
         }
 
-        public IActionResult Oefenen()
+        public IActionResult League()
         {
             return View();
         }
