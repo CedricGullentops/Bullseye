@@ -565,3 +565,4 @@ E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\FysicsLeague.M
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\FysicsLeague.MvcApplicationPartsAssemblyInfo.cache
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\UserList\Upsert.cshtml.g.cs
 E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\League.cshtml.g.cs
+E:\Bullseye Project\Bullseye\FysicsLeague\obj\Debug\netcoreapp3.1\Razor\Views\Home\Oefenen.cshtml.g.cs
