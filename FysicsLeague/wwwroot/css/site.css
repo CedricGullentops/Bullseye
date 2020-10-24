@@ -1,197 +1,23 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
-}
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
+/*unknown*/
 .border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
 }
 
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-    background-color: #e6f5ff !important;
-}
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    white-space: nowrap;
-    line-height: 60px; /* Vertically center the text there */
-    background-color: white !important;
-}
-
-/* Titel
--------------------------------------------------- */
-
-.navbar {
-    
-}
-
-.navbar-brand {
-    font-size: 20px !important;
-    font-weight: bold !important;
-    font-family: Palatino Linotype !important;
-}
-
-.navbar-brand:hover {
-    color: #0099ff !important;
-}
-
-.navbar-nav li:hover {
-    background-color: #ceddf5;
-    border-left: 3px solid #0099ff;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    color: black !important;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #ddd;
-    border-left: 3px solid #0099ff;
-}
-
-/* Show the dropdown menu on hover */
-.nav-item:hover .dropdown-content {
-    display: block;
-    text-decoration: none;
-}
-
-.body {
-    text-decoration: none;
-}
-
-.schooljaar {
-    text-align: center;
-    font-family: Roboto;
-}
-
-.subsection-titel {
-    color: #999999;
-    text-transform: uppercase;
-    text-shadow: 0 2px 0 #fff;
-    font-size: 2em;
-    letter-spacing: 8px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-}
-
-/* eigenschappen van de onderwerpenboxen*/
-
-.link-box {
-    text-align: left;
-    background-color: #0099ff;
-    width: 100%;
-    border-radius: 4px;
-    color: white;
-    padding: 12px 16px 12px 16px;
-    text-decoration: none;
-    font-size: 27px;
-    margin: 10px 3px 40px 3px;
-    box-shadow: 3px 5px 1px #b2b5b8;
-}
-
-.link-box:hover {
-    padding: 13px 17px 13px 17px;
-    margin: 9px 2px 39px 2px;
-}
-
-.derde {
-    background-color: #098210;
-}
-
-.vierde {
-    background-color: #e6780b;
-}
-
-.vijfde {
-    background-color: #0b92d6;
-}
-
-.zesde {
-    background-color: #780fd4;
-}
-
-.derde:hover {
-    background-color: #086e0e;
-}
-
-.vierde:hover {
-    background-color: #b5600b;
-}
-
-.vijfde:hover {
-    background-color: #0f71a3;
-}
-
-.zesde:hover {
-    background-color: #5b119c;
-}
-
+/*Remove all previous text effects*/
+/*---------------------------------------*/
 a:link {
     text-decoration: none;
     color: white;
@@ -211,3 +37,122 @@ a:active {
     text-decoration: none;
     color: white;
 }
+/*---------------------------------------*/
+
+
+/*General site settings*/
+/*---------------------------------------*/
+html {
+    position: relative;
+    min-height: 100%;
+    
+}
+
+.total {
+    background-image: url('../img/downloadscuffed.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+/*---------------------------------------*/
+
+
+/*Navbar*/
+/*---------------------------------------*/
+.navbar {
+    background-color: rgba(0,0,0,0.4) !important;
+    color: white;
+    border: none !important;
+}
+
+.navbar-brand {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: Palatino Linotype !important;
+    color: rgb(205, 190, 15) !important;
+    font-style: oblique;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-nav li:hover {
+    border-left: 3px solid rgba(145, 116, 22, 0.4);
+    background-color: rgba(0,0,0,0.6);
+}
+
+.navbar-nav nav-item:hover {
+    color: white !important;
+}
+/*---------------------------------------*/
+
+
+/*Body*/
+/*---------------------------------------*/
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+    background-color: #312e2b !important;
+    text-decoration: none;
+}
+/*---------------------------------------*/
+
+
+/*Footer*/
+/*---------------------------------------*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: rgba(0,0,0,0.6) !important;
+    border: none !important;
+    color: white !important;
+}
+/*---------------------------------------*/
+
+
+
+/* Dropdown content (hidden by default) */
+/*---------------------------------------*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    border-left: 3px solid rgba(145, 116, 22, 0.4);
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+/*---------------------------------------*/
