@@ -14,5 +14,6 @@ namespace FysicsLeague.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Prefix> Prefixes { get; set; }
     }
 }
