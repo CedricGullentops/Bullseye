@@ -23,7 +23,7 @@ function loadDataTable() {
                         </a>
                         &nbsp;
                         <a class='btn btn-danger text-white' style='cursor:pointer; width:70px;'
-                            onclick=Delete('/Prefix/Delete?name='+${data})>
+                            onclick=Delete("/Prefix/Delete?name=${data}")>
                             Delete
                         </a>
                         </div>`;

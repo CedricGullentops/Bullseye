@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -35,7 +36,7 @@ namespace FysicsLeague.Controllers
                 return View(Prefix);
             }
             //Update
-            Prefix = _db.Prefixes.FirstOrDefault(p => p.Name == name);
+            Prefix = _db.Prefixes.FirstOrDefault(p => p.Name.Equals(name));
             if (Prefix == null)
             {
                 return NotFound();
@@ -43,26 +44,56 @@ namespace FysicsLeague.Controllers
             return View(Prefix);
         }
 
+        /*
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert()
         {
-
             if (ModelState.IsValid)
             {
-                if (Prefix.Name == null)
+                if (_db.Prefixes.FirstOrDefault(p => p.Name == Prefix.Name) == null)
                 {
-                    //create
                     _db.Prefixes.Add(Prefix);
                 }
-                else
-                {
+                else {
                     _db.Prefixes.Update(Prefix);
                 }
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(Prefix);
+        }*/
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Upsert()
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Attach(Prefix).State = EntityState.Modified;
+                try
+                {
+                    await _db.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!PrefixExists(Prefix.Name))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction("Index");
+            }
+            return View(Prefix);
+        }
+
+        private bool PrefixExists(string id)
+        {
+            return _db.Prefixes.Any(e => e.Name == id);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

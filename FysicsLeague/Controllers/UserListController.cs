@@ -43,7 +43,7 @@ namespace FysicsLeague.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert()
+        public IActionResult UpsertValid()
         {
            
             if (ModelState.IsValid)
